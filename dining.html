@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Luxury Stay Aura | Home</title>
+  <link rel="icon" href="favicon.ico">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Your custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+    :root {
+      --brand-primary: #1a1a1a;
+      --brand-accent: #7a5cfa;
+      --text-muted: #6c757d;
+    }
+    body {
+      color: #222;
+      background-color: #f8f9fa;
+      font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    }
+    .page-wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    /* Header */
+    .brand-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 16px 0 8px;
+      border-bottom: 1px solid #e9ecef;
+      margin-bottom: 16px;
+    }
+    .brand-title {
+      font-size: 38px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      color: var(--brand-primary);
+    }
+    .tagline {
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+    /* Intro block (mirrors Blooms “Offering one of the best…”) */
+    .intro {
+      margin-top: 8px;
+      margin-bottom: 16px;
+      line-height: 1.7;
+    }
+    .intro strong {
+      font-weight: 600;
+    }
+    /* Event title */
+    .event-title {
+      font-size: 28px;
+      font-weight: 700;
+      margin-top: 24px;
+      margin-bottom: 6px;
+    }
+    .event-dates {
+      font-size: 16px;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+    }
+    /* Details grid */
+    .detail-card {
+      background: #fff;
+      border: 1px solid #e9ecef;
+      border-radius: 10px;
+      padding: 16px;
+      height: 100%;
+    }
+    .detail-label {
+      font-weight: 600;
+      color: #343a40;
+      margin-right: 8px;
+    }
+    /* Address & reservations */
+    .section-title {
+      font-size: 20px;
+      font-weight: 700;
+      margin-top: 16px;
+      margin-bottom: 8px;
+    }
+    .address {
+      white-space: pre-line;
+      color: #343a40;
+    }
+    .reservations {
+      font-weight: 600;
+      color: var(--brand-primary);
+      margin-top: 6px;
+    }
+    /* Highlights list */
+    .highlights {
+      background: #fff;
+      border: 1px solid #e9ecef;
+      border-radius: 10px;
+      padding: 16px;
+    }
+    .highlights ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+    .highlights li {
+      margin-bottom: 8px;
+    }
+    /* Photo grid */
+    .photo-grid {
+      margin-top: 12px;
+    }
+    .photo-tile {
+      background: #fff;
+      border: 1px solid #e9ecef;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .photo-tile img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+      display: block;
+    }
+    .photo-caption {
+      padding: 12px 14px;
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+    /* Buttons */
+    .menu-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 16px;
+    }
+    .btn-menu {
+      border-radius: 999px;
+      padding: 10px 16px;
+      font-weight: 600;
+    }
+    .btn-outline-brand {
+      color: var(--brand-accent);
+      border-color: var(--brand-accent);
+    }
+    .btn-outline-brand:hover {
+      color: #fff;
+      background: var(--brand-accent);
+      border-color: var(--brand-accent);
+    }
+    /* Fine spacing on small screens */
+    @media (max-width: 576px) {
+      .brand-title { font-size: 32px; }
+      .photo-tile img { height: 220px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-bar">
+      <a href="index.html" class="brand">
+        <img src="Assets\logo.png">
+        <span>Luxury Stay Aura</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html#rooms">Rooms</a></li>
+          <li><a href="dining.html">Dining</a></li>
+          <li><a href="events.html">Meetings & Events</a></li>
+          <li><a href="weddings.html">Weddings</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a class="btn btn-primary" href="contact.html">Reserve</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  </section>
+  <section class="hero">
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <img src="assets/dining.jpg" class="d-block w-100" alt="Luxury Room">
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <main class="page-wrap">
+    <!-- Header -->
+    <header class="brand-header">
+      <div>
+        <div class="brand-title">Luxury Stay Aura</div>
+        <div class="tagline">Elevated hospitality at Nehru Place, New Delhi</div>
+      </div>
+    </header>
+    <!-- Intro (Blooms-style description) -->
+    <section class="intro">
+      <p>
+        Offering one of the most refined Sunday brunch experiences in the city, <strong>Luxury Stay Aura</strong>
+        celebrates both local and international cuisine, including Mediterranean, Continental, Thai, European,
+        and Asian. Our all-day dining venue features both indoor and outdoor seating with serene views of lush
+        gardens and the poolside. Dining at Aura is not just a meal; it's an experience. As a premier buffet
+        choice in South Delhi, Aura promises a memorable culinary journey.
+      </p>
+    </section>
+    <!-- Event block (Carnival-style) -->
+    <section>
+      <div class="event-title">Brunch Carnival Affair</div>
+      <div class="event-dates">20th Dec – 5th Jan</div>
+      <div class="row g-3">
+        <div class="col-md-6">
+          <div class="detail-card">
+            <p><span class="detail-label">Location:</span> Lobby level</p>
+            <p><span class="detail-label">Cuisine:</span> Multi-cuisine</p>
+            <p><span class="detail-label">No. of covers:</span> 100</p>
+            <p><span class="detail-label">Timings:</span> 12:00 PM – 11:00 PM</p>
+            <p><span class="detail-label">Discounts applicable:</span> Aura Privilege Club (APC) discounts applicable</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-card">
+            <div class="section-title">Address</div>
+            <div class="address">Aura Dining, Lobby Level
+Luxury Stay Aura Hotel
+Nehru Place, New Delhi – 110019</div>
+            <div class="reservations">For table reservation, call +91 4133 1650</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Highlights -->
+    <section class="mt-3">
+      <div class="section-title">Highlights</div>
+      <div class="highlights">
+        <ul class="mb-0">
+          <li>Awning area with garden and pool views</li>
+          <li>One of the largest buffet spreads for breakfast, lunch, and dinner</li>
+          <li>Live cooking stations</li>
+          <li>Selection of sushi</li>
+          <li>Signature dishes — Truffle-Infused Herb Chicken, Superfood Citrus Slaw, Molten Chocolate Lava Cake, Aura Club Sandwich</li>
+          <li>Decadent dessert buffet</li>
+        </ul>
+      </div>
+    </section>
+<section class="dining-section py-5">
+  <div class="container">
+    <div class="row">
+      <!-- First Image -->
+      <div class="col-md-6 mb-4">
+        <img src="Assets/dining1.jpg" alt="Dining Experience 1"
+             class="img-fluid rounded shadow same-height">
+      </div>
+      <!-- Second Image -->
+      <div class="col-md-6 mb-4">
+        <img src="Assets/dining2.jpg" alt="Dining Experience 2"
+             class="img-fluid rounded shadow same-height">
+      </div>
+    </div>
+  </div>
+</section>
+   <footer class="bg-dark text-light pt-5 pb-4">
+  <div class="w-200 px-5">
+    <div class="row justify-content-center">
+      <!-- Quick Links -->
+      <div class="col-md-3 mb-4">
+        <h6>Quick Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light">Home</a></li>
+          <li><a href="About.html" class="text-light">About Us</a></li>
+          <li><a href="contact.html" class="text-light">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- Explore -->
+      <div class="col-md-3 mb-4">
+        <h6>Explore</h6>
+        <ul class="list-unstyled">
+          <li><a href="gallery.html" class="text-light">Gallery</a></li>
+          <li><a href="Careers.html" class="text-light">Careers</a></li>
+          <li><a href="Policies.html" class="text-light">Hotel Policies</a></li>
+        </ul>
+      </div>
+      <!-- Contact Us -->
+      <div class="col-md-3 mb-4">
+        <h6>Contact Us</h6>
+        <p class="mb-1">Luxury Stay Aura</p>
+        <p class="mb-1">New Delhi Nehru Place - 110019, India</p>
+        <p class="mb-1">📞 91-11-41223344 / 26224288</p>
+        <p class="mb-1">✉️ <a href="mailto:reservations@luxurystayaura.com" class="text-light">reservations@luxurystayaura.com</a></p>
+        <div class="mt-2">
+          <a href="#"><i class="bi bi-instagram text-light me-2"></i></a>
+          <a href="#"><i class="bi bi-twitter text-light me-2"></i></a>
+          <a href="#"><i class="bi bi-facebook text-light me-2"></i></a>
+          <a href="#"><i class="bi bi-camera text-light"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<footer>
+    <div class="container d-flex justify-content-between">
+      <div>© Luxury Stay Aura Hotel</div>
+      <div>Privacy • Terms • Sitemap</div>
+    </div>
+  </footer>
+</body>
+</html>
